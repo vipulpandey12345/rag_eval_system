@@ -1,6 +1,6 @@
 # RAG Evaluation System
 
-A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) systems using a custom golden dataset and FAISS vector database.
+A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) systems using a custom golden dataset and a FAISS vector database. This project evaluates how well AI can answer different questions using different retrieval strategies.
 
 ## Architecture
 
@@ -31,7 +31,7 @@ A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) sy
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           GENERATION LAYER                                   │
 │                                                                              │
-│    Retrieved Context (Top-K=3) ───▶ Claude API ───▶ Generated Answer        │
+│    Retrieved Context (Top-K=3) ───▶ Claude API  ───▶ Generated Answer        │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
                                     │
@@ -50,7 +50,7 @@ A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) sy
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         STREAMLIT DASHBOARD                                  │
 │                                                                              │
-│    📈 Experiment Results  │  🔍 Interactive Query  │  📋 Detailed Results   │
+│    📈 Experiment Results  │  🔍 Interactive Query  │  📋 Detailed Results    │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
