@@ -60,12 +60,9 @@ A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) sy
 The golden dataset contains **100 question-answer pairs** sourced from real news articles and publications. Questions are categorized by type and difficulty level.
 
 ### Question Types
-
-| Type | Count | Description |
-|------|-------|-------------|
-| **Factual** | 61 | Questions with specific, verifiable answers (names, numbers, dates, facts) |
-| **Conceptual** | 32 | Questions requiring understanding of ideas, theories, or relationships |
-| **Procedural** | 7 | Questions about processes, methods, or how things work |
+| **Factual** Questions with specific, verifiable answers (names, numbers, dates, facts) |
+| **Conceptual** Questions requiring understanding of ideas, theories, or relationships |
+| **Procedural** Questions about processes, methods, or how things work |
 
 #### Factual Questions
 Direct questions seeking specific information that can be verified against the source.
@@ -91,13 +88,7 @@ Questions about processes, mechanisms, or step-by-step methods.
 >
 > **Answer:** "Electron beam water treatment uses a compact, high-average-power superconducting radio-frequency accelerator to generate electron beams that are directed at contaminated water..."
 
-### Difficulty Distribution
 
-| Difficulty | Count |
-|------------|-------|
-| Easy | 39 |
-| Medium | 35 |
-| Hard | 26 |
 
 ### Dataset Entry Fields
 
