@@ -1,4 +1,4 @@
-# RAG Evaluation System
+# Benchmarking Evaluation System
 
 A comprehensive evaluation framework for Retrieval-Augmented Generation (RAG) systems using a custom golden dataset and a FAISS vector database. This project evaluates how well AI can answer different questions using different retrieval strategies.
 
